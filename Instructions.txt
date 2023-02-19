@@ -12,7 +12,7 @@
 - ssh-add TU_Dublin.pem
 
 3. Clone the Git repository.
-- git clone https://github.com/kevinbayliss/ansible-demo
+- git clone https://github.com/DT-DevOpsOne/ansible-demo.git
 - cd ansible-demo
 - ls
 
