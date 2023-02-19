@@ -1,8 +1,8 @@
 1. Configure the EC2 instances in the Ansible hosts file.
 - sudo vi /etc/ansible/hosts
 [servers]
-<IP1> ansible_user=ec2-user ansible_python_interpreter=/usr/bin/python
-<IP2> ansible_user=ec2-user ansible_python_interpreter=/usr/bin/python
+<PrivateIPv4> ansible_user=ec2-user ansible_python_interpreter=/usr/bin/python
+<PrivateIPv4> ansible_user=ec2-user ansible_python_interpreter=/usr/bin/python
 
 2. Add the TU_Dublin key pair to the SSH agent.
 - cd ~
